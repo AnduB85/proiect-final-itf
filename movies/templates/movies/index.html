@@ -15,7 +15,9 @@
            {% csrf_token %}
            <input type="search" name="query" placeholder="Search..." class="search-input">
            <button type="submit" class="search-button">Search</button>
+
        </form>
+           <a href="{% url 'contact' %}"><img src="/static/images/contact.png" alt="Contact Me" style=" position: absolute;top: 80px;left: 20px;"></a>
    </div>
 
 <!--   container -->
